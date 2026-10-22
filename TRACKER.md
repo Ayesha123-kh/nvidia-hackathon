@@ -1,60 +1,36 @@
-# Progress tracker
+# Progress tracker (compressed: project ready by Oct 24)
 
-Source of truth is the GitHub Issues board (label `task`, grouped by `day-*` labels). This file is a
-quick checklist: tick items when the matching issue closes. Internal target **Oct 26**, submit **Oct 29**,
-hard deadline **Oct 30, 22:00 PKT**.
+Source of truth: GitHub Issues (label `task`, `day-*`, `owner-*`). Tick items here when the issue closes.
+Hard hackathon deadline is Oct 30, 22:00 PKT; Oct 25-30 is buffer for fixes, video and submission only.
 
 | Owner | Area |
 |-------|------|
 | Ashi | Pipeline, evidence, verifier, deploy |
 | Faisal | Backtest harness and metrics |
-| Saad | HUD, score-range chart, backtest page |
-| Zarlishta | Domain lens files, example ideas, README draft |
-| Danyal | Test matrix, real-user collection, video, submission checklist |
+| Saad | UI, HUD, score-range chart, backtest page |
+| Zarlishta | Domain lenses, example ideas, README |
+| Danyal | Test matrix, real users, video, submission |
 
-## Oct 22: foundation (done when: one idea runs end to end on Nemotron)
-- [ ] Repo + MIT license visible in About (Ashi)
-- [ ] Token Factory and Tavily keys; `/v1/models` check; rate-limit headers read (Ashi)
-- [ ] Idea Canvas extraction (Ashi)
-- [ ] Pipeline skeleton (Ashi)
-- [ ] `feedback-notes.md` started (all)
+## Oct 22 (today): backend core
+- [x] Repo, MIT, README, ERD, architecture docs
+- [x] Backend scaffold: schemas, Token Factory client, Tavily client, verifier, pipeline, SSE API (`backend/`)
+- [ ] Keys in `.env`; run once end to end against real Token Factory; confirm `/v1/models` tier picks and rate-limit headers (Ashi)
+- [ ] Streamlit UI skeleton: paste box, Idea Canvas, live critics/customers (Saad)
+- [ ] Lenses: fintech, healthcare, food_delivery, generic (done); example ideas (Zarlishta)
+- [ ] Backtest cases: 12 ventures + absurd controls (Faisal, Zarlishta)
 
-## Oct 23: evidence and agents (done when: report cites real sources)
-- [ ] Domain router + claims (Ashi)
-- [ ] Tavily evidence pack with cache (Ashi)
-- [ ] 4 critics with citations (Ashi)
-- [ ] 40 customers, objection-first schema (Ashi)
-- [ ] First 3 domain lens YAMLs (Zarlishta)
+## Oct 23: complete the app
+- [ ] Baseline setups A (single prompt) and C (pipeline) toggle (Ashi)
+- [ ] Resurrect (1 round, noise floor via `verifier.gain_is_real`) (Ashi)
+- [ ] HUD + score-range chart + verdict/experiments view (Saad)
+- [ ] Backtest harness and results (Faisal)
+- [ ] Deploy to Nebius Serverless Endpoint (Ashi)
 
-## Oct 24: judge and deploy (done when: a stranger can open the URL and get a report)
-- [ ] Schema-constrained Ultra judge x3 (Ashi)
-- [ ] Claim verifier + evidence coverage meter (Ashi)
-- [ ] Public MVP on Nebius Serverless Endpoint (Ashi)
-- [ ] Remaining lenses (10 + generic) and example ideas (Zarlishta)
-
-## Oct 25: comparison and Resurrect (done when: side-by-side runs on one idea)
-- [ ] Baseline toggle A / B / C (Ashi)
-- [ ] Resurrect with noise floor (Ashi)
-- [ ] Live HUD (Saad)
-- [ ] Score-range chart (Saad)
-
-## Oct 26: backtest and feature freeze (done when: table of accuracy per setup)
-- [ ] Backtest cases: 16-20 ventures + 4 absurd controls (Faisal, Zarlishta)
-- [ ] Backtest run + metrics (Faisal)
-- [ ] Backtest results page (Saad)
-- [ ] **Feature freeze**
-
-## Oct 27: hardening (done when: 10 of 10 runs finish)
-- [ ] Real-user test, 8-10 ideas (Danyal)
-- [ ] Bug fixes (all)
+## Oct 24: project ready
 - [ ] Replay mode with 3 recorded runs (Ashi)
-- [ ] Per-visitor rate limit (Ashi)
+- [ ] Backtest results page + README results table filled from real runs (Saad, Zarlishta)
+- [ ] 3-5 real-user tests (Danyal)
+- [ ] Stranger test of the public URL in a private window
 
-## Oct 28: video and docs (done when: video public on YouTube)
-- [ ] Video under 3 min, public, no third-party logos/music (Danyal)
-- [ ] README final (Zarlishta)
-- [ ] Feedback form text (Danyal)
-
-## Oct 29: submit (done when: confirmation received)
-- [ ] Final checks in a private window (Danyal)
-- [ ] Submit; Oct 30 is buffer only
+## Oct 25-29: buffer
+- [ ] Video (<3 min, public YouTube), README final, feedback-notes.md, submit by Oct 29 (Danyal)

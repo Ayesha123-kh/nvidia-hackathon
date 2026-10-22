@@ -1,0 +1,7 @@
+domain: healthcare
+failure_modes:
+  - Regulation (medical-device or data-privacy rules)
+  - Clinical evidence required before adoption
+  - Reimbursement: who actually pays
+  - Long hospital/clinic procurement cycles
+  - Integration with existing records systems

@@ -94,14 +94,14 @@ flowchart LR
 - **Secrets:** `.env`. **License:** MIT. Out of scope: accounts, saved history, payments.
 
 ## Getting started
-> Scaffolding is in progress; commands below are the target interface.
+> Backend scaffold is in `backend/` (FastAPI + SSE); the UI is not built yet.
 
 ```bash
 git clone https://github.com/Ayesha123-kh/nvidia-hackathon.git
 cd nvidia-hackathon
 cp .env.example .env        # add TOKEN_FACTORY_API_KEY, TOKEN_FACTORY_BASE_URL, TAVILY_API_KEY
 # backend
-cd backend && pip install -r requirements.txt && uvicorn app.main:app --reload
+cd backend && pip install -r requirements.txt && uvicorn app.main:app --reload   # then: pytest
 # frontend
 cd frontend && npm install && npm run dev
 ```
@@ -137,7 +137,7 @@ backend/  frontend/  backtest/  recordings/  docs/  .github/
 ```
 
 ## Progress and contributing
-Work is tracked in **GitHub Issues** (label `task`, `day-*`, owner label) with a checklist in [TRACKER.md](TRACKER.md). Internal target Oct 26, submit Oct 29, hard deadline Oct 30, 22:00 PKT.
+Work is tracked in **GitHub Issues** (label `task`, `day-*`, owner label) with a checklist in [TRACKER.md](TRACKER.md). **Project must be ready by Oct 24**; Oct 25-29 is buffer for video and submission; hard deadline Oct 30, 22:00 PKT.
 
 ## License
 [MIT](LICENSE)
