@@ -15,7 +15,7 @@ Hard hackathon deadline is Oct 30, 22:00 PKT; Oct 25-30 is buffer for fixes, vid
 - [x] Repo, MIT, README, ERD, architecture docs
 - [x] Backend scaffold: schemas, Token Factory client, Tavily client, verifier, pipeline, SSE API (`backend/`)
 - [ ] Keys in `.env`; run once end to end against real Token Factory; confirm `/v1/models` tier picks and rate-limit headers (Ashi)
-- [ ] Streamlit UI skeleton: paste box, Idea Canvas, live critics/customers (Saad)
+- [ ] Next.js (JavaScript) UI skeleton: paste box, Idea Canvas, live critics/customers (Saad)
 - [ ] Lenses: fintech, healthcare, food_delivery, generic (done); example ideas (Zarlishta)
 - [ ] Backtest cases: 12 ventures + absurd controls (Faisal, Zarlishta)
 

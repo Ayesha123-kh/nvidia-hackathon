@@ -89,7 +89,7 @@ flowchart LR
 - **Backend:** Python, FastAPI with streaming (SSE), Pydantic-enforced JSON output
 - **LLM:** OpenAI Python SDK pointed at Token Factory; model IDs read from `GET /v1/models` at startup (never hard-coded)
 - **Evidence:** Tavily API
-- **Frontend:** Next.js (Streamlit as fallback)
+- **Frontend:** Next.js (JavaScript)
 - **Hosting:** Nebius Serverless Endpoint, per-visitor rate limit, recorded-replay fallback
 - **Secrets:** `.env`. **License:** MIT. Out of scope: accounts, saved history, payments.
 

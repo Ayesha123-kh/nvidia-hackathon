@@ -4,7 +4,7 @@
 
 ```mermaid
 flowchart TB
-    subgraph Client["Browser: Next.js (Streamlit fallback)"]
+    subgraph Client["Browser: Next.js"]
         UI1[Paste box]
         UI2[Idea Canvas editor]
         UI3[Debate view: 4 critic cards + 40 customer dots]
@@ -104,7 +104,7 @@ sequenceDiagram
 ```
 backend/        FastAPI app, agents, pipeline, schemas, verifier
 backend/lenses/ domain lens YAML files (10 + generic)
-frontend/       Next.js UI (Streamlit fallback)
+frontend/       Next.js UI
 backtest/       harness, cases, metrics
 recordings/     3 saved full runs for replay mode
 docs/           ERD, architecture
