@@ -6,3 +6,5 @@ node_modules/
 .next/
 .DS_Store
 .cache/
+
+backtest/results/MOCK_*

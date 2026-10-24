@@ -1,9 +1,0 @@
-fastapi
-uvicorn
-openai
-httpx
-pydantic>=2
-pyyaml
-python-dotenv
-pytest
-sse-starlette
