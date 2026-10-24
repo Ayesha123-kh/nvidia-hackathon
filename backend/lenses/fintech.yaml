@@ -1,0 +1,7 @@
+domain: fintech
+failure_modes:
+  - Licensing and regulatory approval timelines
+  - KYC/AML compliance cost
+  - Fraud and chargeback losses
+  - Interchange and partner-bank margin limits
+  - Trust barrier for moving money to a new brand

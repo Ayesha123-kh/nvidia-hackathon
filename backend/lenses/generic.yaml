@@ -1,0 +1,7 @@
+domain: generic
+failure_modes:
+  - No painful, frequent problem for a specific user
+  - Existing alternatives are good enough or free
+  - Customers will not switch or pay the stated price
+  - Unit economics do not work at small scale
+  - Distribution cost exceeds customer lifetime value
