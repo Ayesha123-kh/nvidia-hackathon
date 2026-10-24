@@ -1,0 +1,242 @@
+{
+  "set_id": "peperio-backtest-v1",
+  "notes": "Pitch-stage descriptions with company names stripped. 'source' and 'outcome_note' are for the team only and are never sent to a model. Models may still recognise famous cases, so this is a sanity check, not proof.",
+  "cases": [
+    {
+      "id": "F01",
+      "outcome": "failed",
+      "era": "2016",
+      "source": "Juicero",
+      "outcome_note": "Shut down 2017 after it emerged the packs could be squeezed by hand.",
+      "canvas": {
+        "target_user": "Health-conscious, affluent households who want fresh cold-pressed juice at home every day",
+        "problem": "Fresh cold-pressed juice is expensive at juice bars, and home juicers are slow, messy and hard to clean",
+        "solution": "A Wi-Fi connected countertop press that squeezes single-serve sealed packs of pre-chopped fruit and vegetables delivered weekly; the machine scans each pack and blocks expired ones",
+        "price": "$699 for the press plus $5-8 per pack on a weekly subscription",
+        "riskiest_belief": "Customers will pay a premium for a dedicated machine and proprietary packs instead of buying bottled juice",
+        "market": "US premium home appliances and the cold-pressed juice market"
+      }
+    },
+    {
+      "id": "F02",
+      "outcome": "failed",
+      "era": "2019",
+      "source": "Quibi",
+      "outcome_note": "Launched April 2020, shut down six months later.",
+      "canvas": {
+        "target_user": "Adults aged 18-44 who watch video on their phones in short gaps during the day",
+        "problem": "Premium TV and film content is made for long sessions on big screens, not for 5-10 minute mobile moments",
+        "solution": "A mobile-only streaming app with Hollywood-produced shows cut into chapters under 10 minutes, with a patented format that reframes between portrait and landscape",
+        "price": "$4.99 per month with ads, $7.99 per month ad-free",
+        "riskiest_belief": "People will pay for short premium mobile video even though free short video is everywhere",
+        "market": "Global mobile video streaming"
+      }
+    },
+    {
+      "id": "F03",
+      "outcome": "failed",
+      "era": "1999",
+      "source": "Webvan",
+      "outcome_note": "Bankrupt in 2001 after heavy spending on warehouses.",
+      "canvas": {
+        "target_user": "Busy urban and suburban households who dislike weekly grocery trips",
+        "problem": "Grocery shopping takes hours every week and stores are crowded",
+        "solution": "Order groceries online and get delivery in a 30-minute window you choose; we build our own large automated warehouses and our own delivery fleet in each city",
+        "price": "Supermarket prices, free delivery on orders over $50",
+        "riskiest_belief": "Enough households in each city will order often enough to fill a very expensive automated warehouse quickly",
+        "market": "US grocery retail, rolling out to 26 cities"
+      }
+    },
+    {
+      "id": "F04",
+      "outcome": "failed",
+      "era": "1999",
+      "source": "Pets.com",
+      "outcome_note": "Liquidated in 2000, about nine months after its IPO.",
+      "canvas": {
+        "target_user": "Pet owners who buy food and supplies every month",
+        "problem": "Carrying heavy bags of pet food home from the store is a chore and local pet stores have limited range",
+        "solution": "An online pet supply store delivering food, toys and accessories to the door, backed by a national TV advertising campaign",
+        "price": "Prices at or below the big pet store chains, with low shipping charges",
+        "riskiest_belief": "We can ship heavy, low-margin products profitably once we reach scale",
+        "market": "US pet supplies"
+      }
+    },
+    {
+      "id": "F05",
+      "outcome": "failed",
+      "era": "2012",
+      "source": "Homejoy",
+      "outcome_note": "Shut down in 2015 amid low customer retention and worker classification lawsuits.",
+      "canvas": {
+        "target_user": "Busy urban professionals who want a clean home without hiring a regular cleaner",
+        "problem": "Booking a trusted house cleaner is slow, prices are opaque and quality varies",
+        "solution": "Book a vetted independent cleaner online in 60 seconds, pay by card, with heavy first-clean discounts to grow fast across many cities",
+        "price": "First clean $19-29 with a promo, then about $25 per hour",
+        "riskiest_belief": "Customers will keep booking through the platform after the first discounted clean instead of hiring the cleaner directly",
+        "market": "US and international home cleaning services"
+      }
+    },
+    {
+      "id": "F06",
+      "outcome": "failed",
+      "era": "2013",
+      "source": "Theranos",
+      "outcome_note": "Collapsed 2016-2018; the technology did not work as claimed.",
+      "canvas": {
+        "target_user": "Patients who need routine blood tests, and the pharmacies and clinics that serve them",
+        "problem": "Blood tests need a full needle draw, take days and are expensive",
+        "solution": "A compact device that runs hundreds of lab tests from a few drops of blood from a finger prick, with results in hours, placed inside retail pharmacies",
+        "price": "Published prices up to 90% below Medicare reimbursement rates",
+        "riskiest_belief": "Our device gives lab-grade accuracy on hundreds of tests from a finger-prick sample",
+        "market": "US clinical laboratory testing"
+      }
+    },
+    {
+      "id": "S01",
+      "outcome": "survived",
+      "era": "2008",
+      "source": "Airbnb",
+      "outcome_note": "Public company since 2020.",
+      "canvas": {
+        "target_user": "Travellers on a budget, and people with a spare room or couch who want extra income",
+        "problem": "Hotels sell out and are expensive during big events and conferences, while many homes have unused space",
+        "solution": "A website where hosts list a spare room, couch or air mattress and guests book and pay online, with profiles and reviews for trust",
+        "price": "Free to list; we take a small commission on each booking",
+        "riskiest_belief": "Strangers will trust each other enough to stay in each other's homes",
+        "market": "Global travel accommodation"
+      }
+    },
+    {
+      "id": "S02",
+      "outcome": "survived",
+      "era": "2007",
+      "source": "Dropbox",
+      "outcome_note": "Public company since 2018.",
+      "canvas": {
+        "target_user": "People who work across several computers and keep emailing files to themselves or carrying USB drives",
+        "problem": "Keeping files in sync between computers is painful and files get lost or overwritten",
+        "solution": "A folder on every computer that syncs automatically to the cloud and all your other devices, with version history",
+        "price": "Free up to 2 GB, paid plans around $10 per month for more space",
+        "riskiest_belief": "Enough free users will upgrade, and big tech companies will not make this a free built-in feature first",
+        "market": "Consumer and small business file storage and sync"
+      }
+    },
+    {
+      "id": "S03",
+      "outcome": "survived",
+      "era": "2010",
+      "source": "Stripe",
+      "outcome_note": "Large private company, still operating.",
+      "canvas": {
+        "target_user": "Software developers at startups who need to accept card payments online",
+        "problem": "Getting a merchant account and payment gateway takes weeks of paperwork and poor, old-fashioned APIs",
+        "solution": "A developer-first payments API: add a few lines of code and start charging cards the same day, with simple docs and instant sign-up",
+        "price": "2.9% + 30 cents per successful charge, no setup or monthly fees",
+        "riskiest_belief": "We can handle fraud and compliance well enough while making onboarding instant",
+        "market": "Online card payment processing"
+      }
+    },
+    {
+      "id": "S04",
+      "outcome": "survived",
+      "era": "2013",
+      "source": "DoorDash",
+      "outcome_note": "Public company since 2020.",
+      "canvas": {
+        "target_user": "Suburban families and students who want food from local restaurants that do not deliver",
+        "problem": "Most good local restaurants have no delivery, especially outside big city centres",
+        "solution": "An app to order from any local restaurant, fulfilled by independent drivers we dispatch, starting in suburbs that big players ignore",
+        "price": "Delivery fee of about $5-7 per order plus a commission from restaurants",
+        "riskiest_belief": "Order volume per area will be high enough to cover driver costs",
+        "market": "US restaurant food delivery"
+      }
+    },
+    {
+      "id": "S05",
+      "outcome": "survived",
+      "era": "2011",
+      "source": "Chewy",
+      "outcome_note": "Acquired 2017, public company since 2019.",
+      "canvas": {
+        "target_user": "Dog and cat owners who buy the same food every month",
+        "problem": "Heavy pet food is a pain to carry home and running out is stressful",
+        "solution": "An online pet store with fast shipping, automatic repeat deliveries and an unusually personal 24/7 customer service team",
+        "price": "Competitive with big pet stores, free shipping above about $49",
+        "riskiest_belief": "Repeat autoship customers will stay long enough to pay back the cost of shipping heavy goods",
+        "market": "US pet food and supplies"
+      }
+    },
+    {
+      "id": "S06",
+      "outcome": "survived",
+      "era": "2012",
+      "source": "Instacart",
+      "outcome_note": "Public company since 2023.",
+      "canvas": {
+        "target_user": "Busy urban households who want groceries from the stores they already like",
+        "problem": "Grocery shopping takes time every week and existing online grocers have limited choice",
+        "solution": "An app where independent shoppers pick your order at your existing local supermarket and deliver within an hour; we own no warehouses or inventory",
+        "price": "Delivery fee from $3.99, plus a markup on some items",
+        "riskiest_belief": "Shoppers can pick orders fast and accurately enough to make each delivery profitable",
+        "market": "US grocery retail"
+      }
+    },
+    {
+      "id": "X01",
+      "outcome": "absurd_control",
+      "source": "Absurd control (Faisal)",
+      "outcome_note": "Deliberately implausible; should be KILL.",
+      "canvas": {
+        "target_user": "Research stations in Antarctica",
+        "problem": "They do not have enough ice",
+        "solution": "Daily drone delivery of bagged ice from Karachi to Antarctica",
+        "price": "$900 per bag",
+        "riskiest_belief": "Antarctic stations need imported ice",
+        "market": "Antarctic ice supply"
+      }
+    },
+    {
+      "id": "X02",
+      "outcome": "absurd_control",
+      "source": "Absurd control (Faisal)",
+      "outcome_note": "Deliberately implausible; should be KILL.",
+      "canvas": {
+        "target_user": "Owners of pet rocks",
+        "problem": "Pet rocks may get sick and need treatment",
+        "solution": "Monthly health insurance for pet rocks, with claims settled by an AI that checks whether the rock looks unwell",
+        "price": "$45 per rock per month",
+        "riskiest_belief": "Rock owners worry about rock illness",
+        "market": "Global pet rock insurance"
+      }
+    },
+    {
+      "id": "X03",
+      "outcome": "absurd_control",
+      "source": "Absurd control (Zarlishta)",
+      "outcome_note": "Deliberately implausible; should be KILL.",
+      "canvas": {
+        "target_user": "Everyone who breathes",
+        "problem": "People forget to breathe",
+        "solution": "A smartphone app that sends a push notification every 4 seconds reminding you to inhale and exhale; breathing is locked unless you subscribe",
+        "price": "$60 per month, no free tier",
+        "riskiest_belief": "People will pay to be reminded to breathe",
+        "market": "All 8 billion humans"
+      }
+    },
+    {
+      "id": "X04",
+      "outcome": "absurd_control",
+      "source": "Absurd control (Zarlishta)",
+      "outcome_note": "Deliberately implausible; should be KILL.",
+      "canvas": {
+        "target_user": "Houseplants",
+        "problem": "Houseplants are lonely and have no social network",
+        "solution": "A social media platform where plants post updates and pay a subscription from their own bank accounts",
+        "price": "$12 per plant per month, paid by the plant",
+        "riskiest_belief": "Plants can open bank accounts",
+        "market": "Indoor plants worldwide"
+      }
+    }
+  ]
+}
