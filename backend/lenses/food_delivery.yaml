@@ -1,0 +1,7 @@
+domain: food_delivery
+failure_modes:
+  - Take rate versus courier cost per order
+  - Low repeat-order rate and high customer acquisition cost
+  - Insufficient order density per delivery zone
+  - Restaurant churn and competing aggregators
+  - Spoilage and quality control for meal kits
